@@ -1,0 +1,19 @@
+{
+  "name": "weather-now",
+  "version": "1.0.0",
+  "description": "wep app that gives the weather for cities",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rei98/Weather-Now.git"
+  },
+  "author": "Reizhiger Jonathan Almonor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rei98/Weather-Now/issues"
+  },
+  "homepage": "https://github.com/Rei98/Weather-Now#readme"
+}
