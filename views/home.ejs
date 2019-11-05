@@ -11,11 +11,15 @@
 <body>
     <div class="container">  
          <form action="/whatever-we-want" method="POST"> 
-             <input class="ghost-input" type="text" placeholder="Enter City">
+             <input name="city" class="ghost-input" type="text" placeholder="Enter City">
              <input class="ghost-button" type="submit" value="Weather Now">
          </form>
 
-         <p>The weather in New York is 70 C</p>
+        <% if(error){ %>
+            <p><%= error %></p>
+        <% } else { %>
+            <p><%= weather %></p>
+        <% } %>
     </div>
 </body>
 </html> 
