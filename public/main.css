@@ -35,9 +35,9 @@ body {
 }
 
 .ghost-button:hover {
-    border: 2px solid #515151;
+    border: 2px solid #4b4b4b;
 }
 
 p {
-    color: #E64A19;
+    color: lightcoral;
 }
